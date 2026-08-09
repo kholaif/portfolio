@@ -1,0 +1,27 @@
+# Next.js build output — wiped automatically before each dev start
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.vercel
+
+# Build / deploy artifacts
+dist/
+.open-next/
+.wrangler/
+.sanity/
+*.tsbuildinfo
+sanity.config.ts.bak
